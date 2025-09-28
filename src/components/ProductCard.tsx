@@ -13,7 +13,7 @@ export default function ProductCard({item}:{item:Item}){
         </div>
         <div className="text-sm text-neutral-600 flex items-center justify-between mt-1">
           <span>{item.color}</span>
-          <span className="font-semibold text-neutral-900">{item.price}</span>
+          {/* <span className="font-semibold text-neutral-900">{item.price}</span> */}
         </div>
       </div>
     </div>
