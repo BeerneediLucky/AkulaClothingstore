@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+/* Smooth card hover */
+.card-hover {
+  transition: transform 400ms;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+}
