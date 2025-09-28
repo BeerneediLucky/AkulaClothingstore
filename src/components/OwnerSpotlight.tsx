@@ -3,7 +3,7 @@ export default function OwnerSpotlight() {
     <section className="container max-w-6xl py-10 md:py-14">
       <div className="rounded-2xl border bg-white p-6 md:p-8 grid md:grid-cols-[160px_1fr] gap-6 items-center">
         <img
-          src="public/people/uncle.jpg"
+          src="/people/uncle.jpg"
           alt="Store owner portrait"
           className="w-40 h-40 rounded-full object-cover border"
           loading="lazy"
