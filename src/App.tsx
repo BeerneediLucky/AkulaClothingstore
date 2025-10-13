@@ -9,7 +9,7 @@ import type { Category } from './types'
 import OwnerSpotlight from './components/OwnerSpotlight';
 
 const CATEGORIES: Category[] = ['All','Men','Women','Boys','Girls']
-
+// Test
 export default function App(){
   const [active, setActive] = useState<Category>('All')
   const [q, setQ] = useState('')
@@ -17,7 +17,7 @@ export default function App(){
   const filtered = useMemo(()=>{
     return ITEMS.filter(i => (active === 'All' || i.category === active) && i.name.toLowerCase().includes(q.toLowerCase()))
   }, [active, q])
-
+//Test-2
   return (
     <div className="min-h-screen bg-neutral-50">
       <Header active={active} setActive={(s)=>setActive(s as Category)} q={q} setQ={setQ} />
