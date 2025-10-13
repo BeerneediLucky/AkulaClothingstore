@@ -133,7 +133,7 @@ export const ITEMS: Item[] = [
   { id: 126, name: 'Traditional', category: 'Boys', tags: ['New'], color: '', image: 'https://manyavar.scene7.com/is/image/manyavar/CDJS015-341_4_16-08-2023-05-13:283x395?&dpr=on,2' },
   { id: 127, name: 'Traditional', category: 'Boys', tags: ['New'], color: '', image: 'https://manyavar.scene7.com/is/image/manyavar/I03_22-09-2200477_22-09-2022-03-10:283x395?&dpr=on,2' },
   { id: 128, name: 'Traditional', category: 'Boys', tags: ['New'], color: '', image: 'https://manyavar.scene7.com/is/image/manyavar/I02_22-09-2201213_22-09-2022-07-12:283x395?&dpr=on,2' },
-  //Girls
+  //Girls & Kids
   { id: 129, name: 'Top', category: 'Girls', tags: ['New'], color: '', image: 'https://image.hm.com/assets/hm/c9/d6/c9d66e07cc20fc9f84d0feedaeeac62262a03835.jpg?imwidth=1536' },
   { id: 130, name: 'Top', category: 'Girls', tags: ['New'], color: '', image: 'https://image.hm.com/assets/hm/45/fa/45fae02a2ba415ab12554c872bf7e5d5aa26487a.jpg?imwidth=427' },
   { id: 131, name: 'Top', category: 'Girls', tags: ['New'], color: '', image: 'https://image.hm.com/assets/hm/29/2e/292e6f2dfaa6b7c61a3f212cc258e61f052e4e5e.jpg?imwidth=427' },
